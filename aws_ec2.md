@@ -3,6 +3,8 @@
 - AMI (Amazon Machine Image) - Contains the OS plus applications to be installed on that instance.
 - Optimized instances for specific use cases e.g. more memory, more storage.
 - Elastic Load Balancer: Able to create an endpoint which will then route the traffic to selected instances.
+- Pricing is per *Region*
+
 
 ## EC2 Instance Store
 
@@ -11,3 +13,22 @@ Storage that is physically attached to the host computer or instance.
 - Ideal for temporary storage like buffers, cache, scratch data
 - Better I/O performance
 - Data in the storage is lost if instance is stopped or terminated
+
+## Pricing Options
+
+* On-Demand
+    - Hourly
+    - No long-term commitment
+    - No upfront payments
+
+* Spot Instances
+    - Bid on spare compute capacity
+    - Up to 90% discount
+
+* Reserved Instances
+    - Reserves compute capacity for when needed
+    - Up to 75% discount
+
+* Dedicated Hosts
+    - Physical EC2 server dedicated for your use
+    - Eases compliance

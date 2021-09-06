@@ -1,18 +1,16 @@
-Scaling our App
-
-## Elastic Load Balancing
+# Elastic Load Balancing
 
 Automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.
 
-### Application Load Balancer
+## Application Load Balancer
 
 Operates at the request level (Layer 7), routing traffic to targets--such as EC2 instances, microservices and containers--within Amazon VPC, based on the content of the request. It's ideal for the advanced load balancing of Hypertext Transfer Protocol (HTTP) and Secure HTTP (HTTPS) traffic.
 
-### Network Load Balancer
+## Network Load Balancer
 
 Operates at the connection level (Layer 4), routing connections to targets--such as Amazon EC2 instances, microservices, and containers--within Amazon VPC, based on IP protocol data. It's ideal for load-balancing Transmission Control Protocol (TCP) traffic.
 
-### Classic Load Balancer
+## Classic Load Balancer
 
 Provides basic load balancing across multiple Amazon EC2 instances, and it operates at both the request level and the connection level.
 
