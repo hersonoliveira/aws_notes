@@ -18,3 +18,9 @@ Amazon EFS is a regional service storing data within and across multiple Availab
 * Storage Tiers
     * Standard - for frequently accessed files
     * Infrequent Access (EFS-IA) - lower price to store files but costs to retrieve them
+
+## Difference between EFS and EBS
+
+* EBS - Locked to one AZ; Can be attached to multiple instances (Multi-Attach); 
+
+* EFS - Multi AZ; Can be mounted to multiple instances; Linux only instances
