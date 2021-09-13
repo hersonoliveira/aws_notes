@@ -1,0 +1,24 @@
+# CloudFormation
+
+* Template-based creation and deletion of resources
+* IAM access policies
+
+## Concepts
+
+* Templates
+    - JSON or YAML file
+    - Blueprint for the Stack
+    - Save locally or S3
+
+* Stack
+    - Collection of resources managed as a single unit
+    - Create, update and delete stacks
+    - Create stack -> Submit template to AWS CloudFormation
+
+* Change Sets
+    - Summary of your proposed changes to update a Stack
+    - See how your changes are going to impact your running resources
+
+* Stack Sets
+    - Enables creation of Stacks across regions using a single template
+    - Regional resource
