@@ -28,7 +28,15 @@ Storage that is physically attached to the host computer or instance.
 * Reserved Instances
     - Reserves compute capacity for when needed
     - Up to 75% discount
+    - Standard (Cannot modify instance family) or Convertible
+    - Zonal (can reserve capacity) or Regional
 
 * Dedicated Hosts
     - Physical EC2 server dedicated for your use
     - Eases compliance
+
+## Elastic Load Balancer
+
+- Cross-zone: Distribue traffic evenly across all nodes on all AZ's
+- A Load Balancer can target EC2 instances **only within an AWS Region**
+- Access logs: Capture detailed information about requests sent to your Load Balancer

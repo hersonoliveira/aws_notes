@@ -26,3 +26,11 @@
 
 * Exceptions
     - Function must return result to Lambda
+
+## Pricing
+
+Price is determined by these three factors:
+
+* Memory allocated
+* Amount of time spent on a compute, with increments of 100 ms
+* Number of times you execute or trigger a function

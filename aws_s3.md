@@ -9,6 +9,7 @@ It's an object-level storage. It can store any type of data on it's original for
 - Objects can be up to 5TB in size
 - Pricing: Based on the location/region and what you use
 - Versioning of objects is possible
+- S3 bucket names **cannot** be changed after bucket is created
 
 ## Data consistency
 

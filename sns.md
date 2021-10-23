@@ -16,3 +16,6 @@
     - SMS
     - Amazon Kinesis
     - Platform Application Endpoint
+
+- PurgeQueue - Delete the messages but keep the queue
+- DeleteQueue - Delete the queue

@@ -2,6 +2,7 @@
 
 * Template-based creation and deletion of resources
 * IAM access policies
+* Drift detection - Detect if any property or resource was changed from it's expected value
 
 ## Concepts
 
@@ -22,3 +23,9 @@
 * Stack Sets
     - Enables creation of Stacks across regions using a single template
     - Regional resource
+
+
+## Cloud Development Kit (CDK)
+
+- Software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
+- Support Typescript, Javascript, Python, Java, C#

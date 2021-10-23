@@ -2,6 +2,7 @@
 
 * Create, publish, maintain, monitor and secure APIs at any scale
 * Tight integration with Lambda
+* Mapping Templates - Let's you format payload for request/response
 
 ## App Developer
 
@@ -22,7 +23,7 @@
 
 ## Usage plan
 
-Configure access to API, add API Key
+A usage plan specifies who can access one or more deployed API stages and methods—and also how much and how fast they can access them. The plan uses API keys to identify API clients and meters access to the associated API stages for each key.
 
 ## Security
 

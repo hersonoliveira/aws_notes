@@ -6,6 +6,8 @@
 * Internet Gateway: Routes traffic from outside to the subnet
 	* Route Table: Configure addresses
 	* It's possible to create private subnets
+* Subnets can be placed on all AZ within a Region
+* Two instances in two different VPC can have the same IP address
 
 ## CIDR (Classless Inter-Domain Routing)
 

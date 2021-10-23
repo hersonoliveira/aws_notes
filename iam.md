@@ -16,3 +16,7 @@
 
 * Roles
   - AWS identity with permission policies
+
+## Access Analyzer
+
+- AWS IAM Access Analyzer helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, that are shared with an **external entity**

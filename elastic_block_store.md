@@ -6,6 +6,7 @@ Amazon Elastic Block Store (EBS) is an easy to use, high performance block stora
 - Independent lifecycle from EC2 instances
 - Attaches to one EC2 instance at a time
 - Pricing: Based on the amount (volume) and storage type
+- Encryption of EBS volumes is optional
 
 ## EBS Snapshots
 

@@ -13,6 +13,7 @@ Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate
 - You can use the AWS Database Migration Service (AWS DMS) to quickly and securely migrate your databases to AWS
 - Allocated storage defined during launch; can be scaled without downtime
 - Possible to deploy **Multi-AZ** RDS instances
+- IAM Authentication: PostgreSQL and MySQL
 
 ## Pricing
 
@@ -27,3 +28,8 @@ There are security access related to the DB instance using security groups
 
 * Horizontal
   * Create read replicas; insert/update/insert is done on the master RDS instance
+
+## Backups
+
+* Automatic Backups do **not** retain the backup after the database is deleted
+* Possible to create manual snapshots

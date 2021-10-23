@@ -2,6 +2,7 @@
 
 * Managed distributed queue service
 * Temporary repository for messages that are awaiting process
+* You can't change the queue type after you create it
 
 ## Queue types
 
