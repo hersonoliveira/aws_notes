@@ -40,3 +40,13 @@ Storage that is physically attached to the host computer or instance.
 - Cross-zone: Distribue traffic evenly across all nodes on all AZ's
 - A Load Balancer can target EC2 instances **only within an AWS Region**
 - Access logs: Capture detailed information about requests sent to your Load Balancer
+
+### Classic Load Balance
+
+* Layer 4 (TCP) and Layer 7 (HTTP)
+
+### ALB - Application Load Balance
+
+* Layer 7 (HTTP)
+* Docker and AWS ECS support
+* Server Name Indication (SNI) allows you to expose multiple HTTPS applications each with its own SSL certificate on the same listener

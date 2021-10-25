@@ -14,6 +14,7 @@ Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate
 - Allocated storage defined during launch; can be scaled without downtime
 - Possible to deploy **Multi-AZ** RDS instances
 - IAM Authentication: PostgreSQL and MySQL
+- Cross-region read replica has additional costs
 
 ## Pricing
 
